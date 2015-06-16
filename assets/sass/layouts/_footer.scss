@@ -1,0 +1,60 @@
+.content-info { }
+
+#site-footer{
+  background: #444;
+  color: $white;
+}
+
+#site-footer h3.logo{
+  margin-bottom: 20px;
+  width:150px;
+}
+
+#site-footer h4{
+  font-size: 21px;
+  font-weight: 500;
+}
+#site-footer h5{
+  margin-bottom: 10px;
+}
+
+#site-footer ul{
+  padding: 0;
+}
+
+#site-footer li{
+  font-size: 16px;
+  list-style: none;
+}
+
+#site-footer li:last-child {
+  margin-bottom: 30px;
+}
+
+/*Footer*/
+#footer{
+  text-align: center;
+  font-weight: 600;
+}
+#footer p{
+  font-size: 15px;
+}
+
+.datespan{
+ font-weight: 400;
+ font-style: italic;
+ margin-bottom: 50px;
+}
+
+#menu-footer{
+  padding:0;
+}
+
+#menu-footer li{
+  font-size: 15px;
+  display: inline;
+}
+
+#menu-footer li a{
+  padding: 5px 10px;
+}

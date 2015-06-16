@@ -1,0 +1,67 @@
+// Captions
+.wp-caption {
+  @extend .thumbnail;
+}
+
+.wp-caption-text {
+  @extend .thumbnail;
+  @extend .caption;
+}
+
+// Gallery shortcode
+.gallery-row {
+  padding: ($line-height-computed / 2) 0;
+}
+
+
+
+
+/*Media - - - - */
+.strip img{}
+
+/*Media*/
+.media{
+  margin-top: 5px;
+  margin-bottom: 21px;
+}
+
+.media.pull-left{
+  margin-left: 0px;
+  margin-right: 18px;
+}
+.media.pull-right{
+  margin-left: 18px;
+  margin-right: 0px;
+}
+
+.media img{
+  margin-bottom: 2px;
+}
+
+.media .credit,
+.media .caption{
+  display: block;
+}
+
+.media .credit{
+  font-size: 14px;
+  font-weight: 400;
+  text-align: right;
+  color:#AEAEAE;
+}
+
+.media .caption{
+  font-size: 15px;
+  font-weight: 300;
+  color:#777;
+}
+
+.media-circle {
+
+}
+.media-circle img{
+  border-radius: 150px;
+}
+.media-circle .credit{
+  text-align: center;
+}

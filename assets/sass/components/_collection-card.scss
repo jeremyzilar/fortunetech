@@ -1,0 +1,55 @@
+// Collection Card
+
+.collection-card{
+  border-top: 2px #999 solid;
+  h4 {
+    margin:0;
+    padding: 7px 0 10px 0;
+  }
+  .entry{
+    padding: 15px 0;
+    border-top: 2px #999 solid; 
+    h5{
+      font-size: 24px;
+      font-weight: 800;
+      a{
+        color: $black;
+      }
+    }
+    &:nth-of-type(1) {
+      border-top:none;
+    }
+    .entry{
+      padding: 10px 0;
+      border-top: 2px #999 solid;
+    }
+  }
+}
+
+.collection-card-popular{}
+
+
+.entry{
+  .num{
+    width:34px;
+    height:34px;
+    border-radius:34px;
+    text-align: center;
+    color:#fff;
+    background: $black;
+    span{
+      position: relative;
+      top:3px;
+    }
+  }
+}
+
+
+#top-5{
+  .num{
+    margin-top:32px;
+  }
+  h5{
+    font-size: 28px;
+  }
+}

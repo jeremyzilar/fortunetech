@@ -1,0 +1,32 @@
+// Share Tools
+
+.share-tools{
+  .btn-share{
+    margin-left:36px;
+    margin-bottom: 5px;
+    a{
+      color:$text-color;
+      i{
+        margin-right: 5px;
+        padding:3px;
+        color: $grey;
+        background: #ccc;
+        border-radius: 3px;
+        width: 24px;
+        font-size: 21px;
+        text-align: center;
+      }
+      span{
+        font-size: 12px;
+        text-align: right;
+        color: #888;
+        font-weight: 300;
+      }
+    }
+    a:hover{
+      i{
+        background: #ccc;
+      }
+    }
+  }
+}

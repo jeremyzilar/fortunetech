@@ -1,0 +1,38 @@
+/*Head*/
+#head_page{
+  padding:0;
+
+  #hero-media {
+    position: absolute;
+    z-index: -9999;
+    background-image: url("../img/bg/kale.jpg");
+    background-position: center center;
+    width: 100%;
+    
+  }
+
+  h1 {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: 900;
+
+    img{
+      display: inline;
+      width: 80px;
+      position: relative;
+      z-index: 9999;
+    }
+  }
+
+  h2{
+    color:$white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+  }
+}
+
+
+

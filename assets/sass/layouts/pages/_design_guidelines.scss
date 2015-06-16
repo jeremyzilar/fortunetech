@@ -1,0 +1,136 @@
+#design-docs{
+  margin-top:0;
+}
+#design-docs.mobile{
+  margin: 50px auto;
+  width: 375px;
+}
+#design-docs.tablet{
+  margin: 50px auto;
+  width: 992px;
+}
+#design-docs.web-small{
+  margin: 50px auto;
+  width: 1200px;
+}
+#design-docs .strip {
+  /*margin-bottom: 25px;*/
+}
+#design-docs #docs-hed{
+  padding: 0;
+  color: #1a3d64;
+  background: none;
+}
+#docs-hed #hero-image{
+    background-position: 50% 25%;
+}
+#docs-hed h1{
+  margin: 80px 0 20px 0;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 48px;
+  color: #fff;
+  color: #1a3d64;
+}
+#docs-hed h1 img{
+  width: 125px;
+}
+#docs-hed h2{
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 21px;
+  color: #fff;
+  color: #1a3d64;
+}
+
+#docs-hed h3{
+  margin: 0;
+  font-weight: 400;
+  font-size: 21px;
+  color: #fff;
+  color: #1a3d64;
+}
+
+#docs-hed h4{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  color: #fff;
+  color: #1a3d64;
+}
+#docs-hed h4 span{
+  font-weight: 300;
+}
+
+html{
+  font-size: 16px;   // 1rem = 16px
+}
+.type-test{
+  padding: 80px 0;
+  background:#DCEDEF;
+/*  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, #FF695C 50%, #FFC14B 50%);
+  -webkit-transition: background-position 1s;
+  -moz-transition: background-position 1s;
+  transition: background-position 1s;*/
+}
+
+/*.type-test:hover {
+    background-position: 0 -100%;
+}*/
+
+.type-test h1{
+  margin: 0;
+  /*font-size: 144px;*/
+  font-size: 1rem;
+}
+
+.type-test h2{
+  margin: 0;
+  font-size: 92px;
+}
+.type-test h3{
+  margin: 0;
+  font-size: 60px;
+}
+.type-test h4{
+  margin: 0;
+  font-size: 36px;
+}
+.type-test h5{
+  margin: 0;
+  font-size: 21px;
+}
+.type-test h6{
+  margin: 0;
+  font-size: 14px;
+}
+
+
+#norwester{
+  font-family: norwester;
+}
+
+#lato{}
+#clearsans{
+  font-family: clearsans;
+}
+.t_tag{
+  margin-bottom: 0;
+  color:#333;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  float: left;
+  top:0;
+  left: -50px;
+  text-align: right;
+  
+}
+.t_tag span{
+  margin: 0;
+  padding: 1px 10px 3px 10px;
+  text-align: right;
+  background: #ffe75a;
+  background: rgba(255,231,90,.95);
+}

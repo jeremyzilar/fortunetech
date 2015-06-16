@@ -1,0 +1,50 @@
+
+.entry{
+  .entry-header{
+    margin: 20px 0;
+    .line{
+      margin-bottom:10px;
+      border-top:10px #000 solid;
+      width:21%;
+    }
+    .entry-head{
+      a{
+        color: $text-color;
+      }
+    }
+  }
+
+  .kicker{
+    font-weight: 500;
+    font-size: 14px;
+    a{
+      margin-right: 3px;
+      margin-bottom: 5px;
+      padding: 3px 10px;
+      display: inline-block;
+      border: 3px $black solid;
+      color: $black;
+    }
+  }
+
+  .entry-deck {
+    margin-bottom: 20px;
+    h5{
+      font-size: 21px;
+      line-height: 26px;
+      font-weight: 800;
+    }
+  }
+  .entry-content {}
+
+  .entry-meta{
+    .byline{
+      display: inline;
+    }
+    .date{
+      color: #777;
+      display: inline;
+    }
+  }
+
+}

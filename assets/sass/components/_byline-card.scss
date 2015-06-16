@@ -1,0 +1,29 @@
+/*Byline Card*/
+
+.byline-card{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  .media{
+    margin-bottom:10px;
+    margin-right:10px;
+    float: left;
+    img{
+      width: 50px;
+      border-radius:50px;
+    }
+  }
+  h5{
+    font-size: 16px;
+    display: inline;
+    span{
+      margin-left: 5px;
+    }
+  }
+  h6{
+    display:none;
+  }
+  .date{
+    font-size: 16px;
+    color:#999;
+  }
+}

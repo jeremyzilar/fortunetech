@@ -1,0 +1,23 @@
+{
+  "name": "fortune-tech",
+  "version": "0.1.0",
+  "homepage": "http://tech.fortune.com",
+  "authors": [
+    "Jeremy Zilar <jeremyzilar@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "assets/vendor"
+  ],
+  "dependencies": {
+    "modernizr": "2.8.2",
+    "jquery": "1.11.1",
+    "bootstrap-sass-official": "3.3.1",
+    "moment": "~2.0.0",
+    "openwebicons": "~1.3.1",
+    "font-awesome": "~4.1.0"
+  }
+}

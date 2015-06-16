@@ -1,0 +1,25 @@
+/*Hours Card*/
+
+#hours{
+  background: #5582BF;
+  background: #1a3d64;
+  background: #DCEDEF;
+  border-top:10px #97D9EF solid;
+  p{
+    margin-bottom: 5px;
+    color: $text-color;
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 300;
+    strong{
+      font-weight: 600;
+    }
+  }
+  .more{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  
+}

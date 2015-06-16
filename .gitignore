@@ -1,0 +1,10 @@
+# IDE settings
+.idea
+
+# mac osx file system
+.DS_store
+
+# node.js
+node_modules/
+
+.sass-cache

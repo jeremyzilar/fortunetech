@@ -1,0 +1,36 @@
+{
+  "name": "fortune-tech",
+  "version": "0.1.0",
+  "author": "Jeremy Zilar <jeremyzilar@gmail.com>",
+  "homepage": "http://tech.fortune.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timeinc/fortune-tech.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "scripts": {
+    "postinstall": "node node_modules/bower/bin/bower install && grunt dev"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "bower": ">=1.3.9",
+    "grunt": "~0.4.5",
+    "grunt-autoprefixer": "~1.0.0",
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-jshint": "~0.10.0",
+		"grunt-contrib-sass": "~0.7.3",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-modernizr": "~0.5.2",
+    "grunt-wp-assets": "~0.2.6",
+    "load-grunt-tasks": "~0.6.0",
+    "time-grunt": "~0.4.0"
+  }
+}

@@ -1,0 +1,39 @@
+
+#news-stream{
+  .container{
+    max-width: 960px;
+    max-width: 800px;
+  }
+}
+
+.news-item{
+  padding-top:15px;
+  padding-bottom:15px;
+  background: #fff;
+  border-left:1px solid #ddd;
+  border-right:1px solid #ddd;
+  border-bottom: 1px #efefef solid;
+
+  h6{
+    a{
+      color:$text-color; 
+    }
+    i{
+      color:#565656;
+    }
+  }
+
+  h5{
+    a{
+      color:$text-color; 
+    }
+  }
+  .summary{
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+.news-item-recall{
+
+}

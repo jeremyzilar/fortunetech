@@ -1,0 +1,83 @@
+/*NAVIGATION*/
+.navbar{
+  margin-bottom: 0;
+  min-height: 54px;
+  border-radius: 0;
+  border:none;
+  color:$grey;
+  background: none;
+  height: 54px;
+  background:$white;
+
+  .navbar-brand{
+    float: none;
+    display: block;
+    img{
+      margin:0 auto;
+      width:120px;
+    }
+  }
+
+  .navbar-collapse{
+    padding:0;
+  }
+  .navbar-logo{
+    margin: 0;
+    padding:0;
+    position: relative;
+    top: 14px;
+    left: 10px;
+    display: block;
+    float: left;
+    height: auto;
+    color: $green !important; /* GREEN */
+    font-weight: 600;
+  }
+  .navbar-logo:hover{
+    text-decoration: none;
+  }
+
+  ul{
+    margin:0;
+  }
+  li{
+    padding-top:0;
+    padding-bottom:0;
+    font-size: 18px;
+    font-weight: 700;
+    float:left;
+  }
+  li a{
+    padding-top:17px;
+    padding-bottom:17px;
+    -webkit-transition: all 0.15s ease-in-out;
+       -moz-transition: all 0.15s ease-in-out;
+         -o-transition: all 0.15s ease-in-out;
+            transition: all 0.15s ease-in-out;
+  }
+  li a:hover{
+    background: rgba(255,255,255,.2) !important;
+  }
+  .active a{
+    background: #19BAF9 !important;
+  }
+  li.active a{
+
+  }
+  .navbar-nav li a,
+  .navbar-nav li a:hover {
+    color:$grey;
+  }
+  li.login{
+    // background: $white;
+  }
+}
+
+
+
+
+.navbar.dark .navbar-nav li a,
+.navbar.dark .navbar-nav li a:hover {
+  color: $white;
+}
+

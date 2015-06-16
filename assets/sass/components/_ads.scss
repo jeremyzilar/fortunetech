@@ -1,0 +1,42 @@
+
+.ad-wrap{
+  margin-bottom: 15px;
+  padding-top:10px;
+  padding-bottom:10px;
+  background: pink;
+  text-align:center;
+
+}
+
+.ad-big{
+    
+}
+
+
+.ad-banner{
+  margin: 0 auto;
+  width: 728px;
+  height: 90px;
+  border:none;
+  background: $salmon;
+  color:$white;
+}
+
+
+
+// .wbox.ad-big {
+//   margin: 0 auto;
+//   width: 300px;
+//   height: 250px;
+//   border:none;
+//   background: $salmon;
+//   color:$white;
+//   z-index: 9999;
+// }
+.ad-wrap .affix-top{
+  top:0;
+}
+
+.ad-wrap .affix{
+  top:0;
+}

@@ -1,0 +1,72 @@
+// Mailing List / Signup
+
+.mailing-list{
+  padding: 35px 0 35px 0;
+  h4 {
+    margin:0 0 8px 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: $black;
+
+    @media #{$break-sm} {
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+
+    i{
+      margin-right: 5px;
+    }
+  }
+  h5 {
+    margin:0 0 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .form-group {
+    @media #{$break-xs} {
+      display: inline-block;
+    }
+    label{
+      display: none;
+    }
+    .email{
+      font-weight: 600;
+      @media #{$break-xs} {
+        width: auto;
+      }
+      @media #{$break-sm} {
+        width:352px;
+      }
+      @media #{$break-md} {
+        width:485px;
+      }
+    }
+  }
+  .btn{
+    background: #F16B6D;
+    color: $white;
+    font-weight: 600;
+    @media #{$break-xs} {
+      width: auto;
+      display: inline-block;
+      float: right;
+    }
+  }
+
+
+  p{
+    margin:10px 0 0 0;
+    color: $black;
+    font-size: 15px;
+    font-weight: 400;
+    text-shadow: 0 1px rgba(0,0,0,0.15);
+  }
+}
+
+
+
+
+
+

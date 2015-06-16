@@ -1,0 +1,131 @@
+section{
+  padding:18px 0;
+}
+
+.card{
+
+  .heading{
+    margin-bottom:14px;
+    font-size: 24px;
+  }
+  .sub-heading{
+    margin-bottom:12px;
+    font-weight: 300;
+    font-size: 21px;
+  }
+  p{
+    margin-bottom: 18px;
+  }
+  p:last-child{
+    margin-bottom: 0;
+  }
+
+  .nav{
+    font-weight: 800;
+    li{
+      font-size: 16px;
+
+      a{
+        border-radius: 5px;
+      }
+    }
+    
+  }
+
+  .nav-sm{
+    margin:0;
+    margin-top: 15px;
+    li{
+      margin:0;
+      padding-right:10px;
+      padding-left:5px;
+      border-right:1px #888 solid;
+      a{
+        padding:0;
+        font-weight: 500;
+      }
+    }
+    li:first-child{
+      padding-left:0;
+    }
+    li:last-child{
+      padding-right:none;
+      border-right:none;
+    }
+    
+  }
+  
+  /*Nav Centered*/
+  .nav-centered{
+    text-align: center;
+    width: 100%;
+    li{
+      float: none;
+      display: inline;
+      a{
+        display: inline-block;
+      }
+    }
+  }
+  
+
+  /*Nav Split*/
+  .nav-split{
+    li{
+      margin: 0;
+      width: 49%;
+      float: left;
+      a{
+        border-radius: 5px;
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+  
+  .more{
+    font-size: 16px;
+  }
+
+}
+
+
+
+.card-centered{
+  text-align: center;
+
+  .media{
+    margin-left: 0;
+    float: none;
+  }
+
+}
+
+
+.card-sm{
+  padding: 14px 0;
+
+  h3.heading{
+    margin: 0;
+  }
+}
+
+
+.card-xs{
+  padding: 14px 0;
+  border-bottom:1px #ddd solid;
+
+  h3.heading{
+    margin: 0;
+  }
+  h3.heading a{
+    color:#333;
+  }
+  .heading{
+    i{
+      float: right;
+    }
+  }
+}
+
+

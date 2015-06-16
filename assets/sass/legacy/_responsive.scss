@@ -1,0 +1,79 @@
+/*
+Hide code snippets on mobile devices
+XS
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+*/
+@media #{$break-xs} {
+	.webonly{
+		display: none !important;
+	}
+
+	#blog .entry-summary{
+		display: block;
+	}
+	.single #blog .entry-summary,
+	.page #blog .entry-summary{
+		display: none;
+	}
+	#blog .entry-content{
+		display: none;
+	}
+	.single #blog .entry-content,
+	.page #blog .entry-content{
+		display: block;
+	}
+
+}
+
+/*
+Tablets and up
+SM
+*/
+@media #{$break-sm} {
+	
+	/*Main Navbar*/
+	#main-navbar{
+	  width: 100%;
+	}
+
+
+
+	#blog .entry-summary{
+		/*display: hidden;*/
+	}
+	.home .entry-summary{
+	  display: block;
+	}
+
+	.entry{
+	  margin:0 0 48px 0;
+	  padding:15px 0;
+	}
+	.entry-title{
+		margin-bottom:15px;
+	  font-size:28px;
+	}
+	.w1024,
+	.w770{
+	  margin-left: -80px;
+	  width:770px;
+	}
+}
+
+/*
+Tablets/desktops and up
+MD
+*/
+@media #{$break-md} {
+
+	
+}
+
+
+/*
+Large desktops and up
+LG
+*/
+@media #{$break-lg} {
+
+}

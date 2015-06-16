@@ -1,0 +1,105 @@
+
+
+#beta-bar{
+  padding: 5px 0 7px 0;
+  font-size: 13px;
+  text-align: center;
+  color:#333;
+  font-weight: 800;
+  background: #ffe500;
+  min-height: 25px;
+  height: 32px;
+}
+
+#viewport-switch{}
+#viewport-switch button{
+  background: #ffe500;
+  background: rgba(255,255,255,.65);
+  color:#555;
+}
+#viewport-switch button.active{
+  background: rgba(255,255,255,.95);
+}
+
+
+.wbox{
+  margin-bottom: 10px;
+  padding: 10px;
+  background: $grey;
+  color:#fff;
+  text-align: center;
+  border-radius: 2px;
+}
+.wbox-info{
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.wbox-label{
+  margin: 0;
+  /*margin-top: 15%;*/
+  font-size: 28px;
+  font-weight: 900;
+  text-shadow:none;
+}
+.wbox-desc{
+  margin: 15px 0;
+}
+
+/*Types*/
+.wbox.article{
+  height: 600px;
+}
+.wbox.article .wbox-info{
+  top: 15%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.wbox.block{
+  height: 300px;
+}
+.wbox.promo{
+  height: 130px;
+}
+.wbox.strip{
+  height: 80px;
+  border:none;
+  background: $grey;
+  color:#fff;
+}
+
+
+
+
+/*Sizes*/
+.wbox.medium{
+  padding-top: 40px;
+  height: 800px;
+}
+.wbox.large{
+  padding-top: 40px;
+  height: 1600px;
+}
+
+.w_template_name{
+  padding: 4px 13px;
+  display: inline;
+  border-radius: 12px;
+  color:#555;
+  background: #ffe500;
+  font-weight: 700;
+}
+
+
+
+.whed{
+  margin-bottom: 80px;
+  text-align: center;
+}
+.whed h1{
+  font-weight: 900;
+}
